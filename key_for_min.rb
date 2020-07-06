@@ -9,5 +9,6 @@ def key_for_min_value(name_hash)
       min_hash = name_hash
     end
   end
+  binding.pry
   min_hash[number]
 end
