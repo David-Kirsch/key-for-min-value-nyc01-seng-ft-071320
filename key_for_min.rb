@@ -4,10 +4,10 @@ require 'pry'
 
 def key_for_min_value(name_hash)
  # min_hash = name_hash.first
-  name_hash.each do |key, value|
-    if(name_hash[1] < min_hash[1])
+  name_hash.each do |name, number|
+    if(name_hash[number] < min_hash[number])
       min_hash = name_hash
     end
   end
-  min_hash[0]
+  min_hash[number]
 end
